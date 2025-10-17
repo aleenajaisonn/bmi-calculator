@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+.result.underweight {
+    background-color: #00bcd4;
+}
+
+.result.normal {
+    background-color: #4caf50;
+}
+
+.result.overweight {
+    background-color: #ffc107;
+}
+
+.result.obese {
+    background-color: #f44336;
+}
